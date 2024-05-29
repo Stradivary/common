@@ -1,0 +1,56 @@
+@import '../../styles/';
+
+.textAreaWrapper {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+
+  .label {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-left: 5px;
+  }
+
+  .textArea {
+    width: 552px;
+    height: 136px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1.5px solid #ccc;
+    outline: none;
+    resize: vertical;
+
+    &:focus {
+      border-color: #87ceeb;
+      outline: 2px solid #87ceeb;
+    }
+  }
+
+  .characterCount {
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    left: 520px;
+    color: #333333;
+  }
+
+  .errorMessage {
+    font-family: 'Poppins';
+    color: red;
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+  }
+}

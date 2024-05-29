@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-bar-container {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.icon {
+  margin: 0 5px;
+}
+
+.filename {
+  margin-top: 10px;
+}

@@ -1,0 +1,13 @@
+/* this file only being use for cosmos file only, and copy of global.js file */
+/* since this commons service has no react render so we create this file and use it on cosmos.config.json*/
+/* cosmos.config.json cant directly use file global.js */
+
+html {
+  font-size: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
